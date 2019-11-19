@@ -1,0 +1,12 @@
+science=int(input("emter marks of sciemce"))
+social=int(input("enter marks for social"))
+nepali=int(input("enter marks for nepali"))
+math =int(input("enter marks for math"))
+computer=int(input("enter marks for computer"))
+sum1=[]
+sum1.append(science)
+sum1.append(social)
+sum1.append(nepali)
+sum1.append(math)
+sum1.append(computer)
+print(sum(sum1))
